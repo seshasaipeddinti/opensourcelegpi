@@ -56,7 +56,7 @@ def compose_email(gmail_user, recipients, ipaddr, mac, token, today, hostname):
   <html>
       <body>
           <div style="padding:5px 20px;">
-              <h1 style="font-size:20px;">Wifi IP Address Emailer Utility v2.0 <br>&copy; University of Michigan Neurobionics Lab</h1>
+              <h1 style="font-size:20px;">Wifi IP Address Emailer Utility v2.0 <br>&copy; Michigan lab</h1>
               <p style="font-size:15px;">
               <b>Hostname:</b> {5} <br>
               <b>IP Address:</b> {0} <br>
@@ -66,7 +66,7 @@ def compose_email(gmail_user, recipients, ipaddr, mac, token, today, hostname):
               <b>Time:</b> {4}<br>
               </p>
               <div style="height: 500px;width:400px">
-                  <img src="https://robotics.umich.edu/wp-content/uploads/2018/11/MRobotics_informal_outlines_digital.png" style="width: 230; height: 47px;">
+                  <img src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_black_rgb.png?rev=8549860e11d645bf80d7e9e42aa09718" style="width: 230; height: 47px;">
               </div>
           </div>
       </body>
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     smtpserver = initialize_smtp(gmail_user, gmail_password)
     print("Initialized SMTP server.")
   except smtplib.SMTPAuthenticationError:
-    print("Authentication error! Kindly retry after a few minutes. If the issue persists, please contact Dr. Elliott Rouse (ejrouse@umich.edu).")
+    print("Authentication error! Kindly retry after a few minutes. If the issue persists, please contact Vamsi Peddinti.")
     sys.exit(0)
 
   except socket.gaierror:
