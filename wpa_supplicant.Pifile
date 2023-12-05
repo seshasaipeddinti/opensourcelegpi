@@ -10,7 +10,6 @@ ap_scan=1
 ### your network(s) ###
 network={
 	ssid="SPEDDINTI-LAP 0868"
-	scan_ssid=1
 	psk="4h0139;C"
 }
 EOF
