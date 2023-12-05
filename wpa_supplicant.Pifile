@@ -9,7 +9,6 @@ ap_scan=1
 
 ### your network(s) ###
 network={
-	priority=10
 	ssid="SPEDDINTI-LAP 0868"
 	scan_ssid=1
 	psk="4h0139;C"
