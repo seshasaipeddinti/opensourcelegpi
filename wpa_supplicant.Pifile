@@ -9,6 +9,10 @@ ap_scan=1
 
 ### your network(s) ###
 network={
+	ssid="Amar 5G"
+	psk="9490744257"
+}
+network={
 	ssid="SPEDDINTI-LAP 0868"
 	psk="4h0139;C"
 }
