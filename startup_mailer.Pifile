@@ -65,9 +65,6 @@ def compose_email(gmail_user, recipients, ipaddr, mac, token, today, hostname):
               <b>Date:</b> {3}<br>
               <b>Time:</b> {4}<br>
               </p>
-              <div style="height: 500px;width:400px">
-                  <img src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_black_rgb.png?rev=8549860e11d645bf80d7e9e42aa09718" style="width: 230; height: 47px;">
-              </div>
           </div>
       </body>
   </html>
